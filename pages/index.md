@@ -13,29 +13,28 @@ permalink: /
 
 # PROJECT NEGYA - HACKER-STYLE PERSONAL HOMEPAGE
 
-##  Features
-* Highly customizable, content-oriented with The Matrix style
+##  特点
+* hacker风
 * Eyesight-protection layout
 * Decrypt and encrypt text (access token: 233): 
   * secret msg 1: 
   <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
   * secret msg 2: 
   <p class="encrypted" id="G7D+0370pNmixIP1j7teCg1jtm9XCdOWYFH61lcM0LYWlT0hB3rS9raIs=">Encrypted content!</p>
-* LaTeX formula Support with MathJax
+* 摘自：[](https://github.com/akiritsu/pRoJEct-NeGYa)
 
 $$
-NADH+Q+5\;H_{matrix}^{+}\rightarrow NAD^{+}+QH_{2}+4\;H_{intermembrane}^{+}\!
+miku-i的blog
 $$
 
 * Code highlight with Rouge
 
 ```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-## Download and Documentation
+公告栏：
+		博客刚做完（简易版）
 
-[**pRoJEct NeGYa (Github)**](https://github.com/akiritsu/pRoJEct-NeGYa)
+```
+## miku-i的博客链接
+
+[**Blog(Github)**](https://github.com/Miku-i/blok.github.io)
 

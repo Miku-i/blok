@@ -1,7 +1,7 @@
 ## Settings
-title: pRoJEct-NeGYa
+title: Miku-i
 owner: "DeerRIDER"
-url: "https://akiritsu.github.io"
+url: "https://miku-i.github.io/blok.github.io/"
 baseurl: "/pRoJEct-NeGYa"
 permalink: /:title/
 description: ""
@@ -10,9 +10,9 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 ## Global Variables
-hone: "https://miku-i.github.io/blok.github.io/"
+home: "https://miku-i.github.io/blok.github.io/"
 email: "1375696279@qq.com"
-github: "akiritsu/pRoJEct-NeGYa"
+github: "https://github.com/Miku-i/blok.github.io"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
 statement: "Designed by DeerRIDER, All Rights Reserved"

@@ -1,7 +1,7 @@
 ## Settings
 title: Miku-i
 owner: "DeerRIDER"
-url: "https://miku-i.github.io/blok.github.io/"
+url: "https://akiritsu.github.io"
 baseurl: "/pRoJEct-NeGYa"
 permalink: /:title/
 description: ""
@@ -12,7 +12,7 @@ webrick:
 ## Global Variables
 home: "https://miku-i.github.io/blok.github.io/"
 email: "1375696279@qq.com"
-github: "https://github.com/Miku-i/blok.github.io"
+github: "https://github.com/Miku-i/blok.github.io/"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
 statement: "Designed by DeerRIDER, All Rights Reserved"

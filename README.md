@@ -1,109 +1,47 @@
-# The Hacker-Blog theme
+# PRoJEct-NeGYa
 
-*Hacker-Blog is a minimalistic, responsive jekyll theme built for hackers. It is based on the [hacker theme](https://github.com/pages-themes/hacker) for project pages.*
+黑客风格的个人主页模板。
 
-Demo: [https://ashishchaudhary.in/hacker-blog](https://ashishchaudhary.in/hacker-blog)
+版本： v1.01
 
-### Included
+## 特性
 
-1. Pagination
-2. SEO tags
-3. Archive Page
-4. RSS
-5. Sitemap 
+1. 狂拽酷炫
+2. Rouge支持代码高亮
+3. MathJax公式
+4. 文章索引
+5. 高度可定制化
+6. 加密内容（也可以把元素id改成密文，元素内容写“无该字段访问权限！”）
 
-## Usage
+## 更新日志
 
-1. Fork and Clone this repository
-2. Customize your blog
-3. Add a new post in `_posts/` directory with proper name format (as shown in placeholder posts)
-4. Commit and push to master 
+2019.7.17：更新说明文件
 
-## Local Build
+2019.6.15：老子就做这一版，凑合能用得了，我可不改了啊！
 
-If you want to see the changes before pushing the blog to Github, do a local build.
+## 使用方法
 
-1. [`gem install jekyll`](https://jekyllrb.com/docs/installation/#install-with-rubygems)
-2. `gem install jekyll-seo-tag`
-3. (`cd` to the blog directory, then:) `jekyll serve --watch --port 8000`
-4. Go to `http://0.0.0.0:8000/` in your web browser.
+* 下载或者fork到自己的github仓库里
+* 修改_config.yml文件
+* （自定义域名）修改CNAME文件
+* 修改pages/index.md文件，自定义主页
+* 删除_posts/文件夹里的文件，添加自己的文章
+* 同步到github远程仓库
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
+## 工程结构
 
-### Local build using docker
+功能和内容隔离TMD！
 
-```bash
-docker run --rm -p 8000:8000 \
-  --volume="LOCATION_OF_YOUR_JEKYLL_BLOG:/srv/jekyll" \
-  -it tocttou/jekyll:3.5 \
-  jekyll serve --watch --port 8000
-```
+网站内容：
+* _posts：文章
+* pages：页面
+* assets/img：图
 
-Replace `LOCATION_OF_YOUR_JEKYLL_BLOG` with the full path of your blog repository. Visit `http://localhost:8000/` to access the blog.
+功能样式：
+* _includes：子页面模块
+* _layouts：页面模板（单纯地组合子页面模块）
+* assets/css：样式表文件
+* assets/fonts：字体文件
+* assets/js：脚本文件
+* _config.yml：配置文件
 
-*Note: In case you have set a `baseurl` different than `/` in `_config.yml`, go to `http://0.0.0.0:8000/BASEURL/` instead.*
-
-## Customizing
-
-### Configuration variables
-
-Edit the `_config.yml` file and set the following variables:
-
-```yml
-title: [The title of your blog]
-description: [A short description of your blog's purpose]
-author:
-  name: [Your name]
-  email: [Your email address]
-  url: [URL of your website]
-
-baseurl: [The base url for this blog.]
-
-paginate: [Number of posts in one paginated section (default: 3)]
-owner: [Your name]
-year: [Current Year]
-```
-
-*Note: All links in the site are prepended with `baseurl`. Default `baseurl` is `/`. Any other baseurl can be setup like `baseurl: /hacker-blog`, which makes the site available at `http://domain.name/hacker-blog`.*
-
-Additionally, you may choose to set the following optional variables:
-
-```yml
-google_analytics: [Your Google Analytics tracking ID]
-```
-
-### About Page
-
-Edit `about.md`
-
-### Layout
-
-If you would like to modify the site style:
-
-**HTML**
-
-Footer: Edit `_includes/footer.html`
-
-Header: Edit `_includes/header.html`
-
-Links in the header: Edit `_includes/links.html`
-
-Meta tags, blog title display, and additional CSS: Edit `_includes/head.html`
-
-Index page layout: Edit `_layouts/default.html`
-
-Post layout: Edit `_layouts/post.html`
-
-**CSS**
-
-Site wide CSS: Edit `_sass/base.scss`
-
-Custom CSS: Make `_sass/custom.scss` and use it. Then add `@import "custom";` to `css/main.scss`
-
-**404 page**
-
-Edit `404.md`
-
-## License
-
-CC0 1.0 Universal

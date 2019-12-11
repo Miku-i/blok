@@ -11,27 +11,25 @@ encrypted_text: true
 permalink: /
 ---
 
-# PROJECT NEGYA - HACKER-STYLE PERSONAL HOMEPAGE
+# 随手笔记-miku-i的博客
 
 ##  特点
 * hacker风
-* Eyesight-protection layout
-* Decrypt and encrypt text (access token: 233): 
-  * secret msg 1: 
-  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
-  * secret msg 2: 
-  <p class="encrypted" id="G7D+0370pNmixIP1j7teCg1jtm9XCdOWYFH61lcM0LYWlT0hB3rS9raIs=">Encrypted content!</p>
-* 摘自：[](https://github.com/akiritsu/pRoJEct-NeGYa)
+* 暗式风格用习惯了，保护视力。
+* 受益来源
+  * 摘自：[**pRoJEct NeGYa (Github)**](https://github.com/akiritsu/pRoJEct-NeGYa)
+  * 感谢shf的md
+  * 感谢wzj的md
 
 $$
 miku-i的blog
 $$
 
-* Code highlight with Rouge
+
 
 ```ruby
 公告栏：
-		博客刚做完（简易版）
+ 博客刚做完（简易版）
 
 ```
 ## miku-i的博客链接

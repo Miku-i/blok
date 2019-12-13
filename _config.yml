@@ -1,8 +1,8 @@
 ## Settings
 title: Miku-i
 owner: "blog"
-url: "https://akiritsu.github.io"
-baseurl: "/pRoJEct-NeGYa"
+url: "https://miku-i.github.io/"
+baseurl: "/blok.github.io"
 permalink: /:title/
 description: ""
 markdown: kramdown

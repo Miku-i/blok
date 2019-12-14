@@ -1,7 +1,7 @@
 ## Settings
 title: Miku
 owner: "Miku"
-url: "https://miku-i.github.io"
+url: "http://miku-i.github.io"
 baseurl: "/miku"
 permalink: /:title/
 description: ""

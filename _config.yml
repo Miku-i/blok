@@ -1,7 +1,7 @@
 ## Settings
 title: Miku-i
 owner: "blog"
-url: "https://miku-i.github.io/blok.github.io/"
+url: "//miku-i.github.io/blok.github.io/"
 baseurl: "/blok.github.io"
 permalink: /:title/
 description: ""
